@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}

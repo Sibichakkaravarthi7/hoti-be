@@ -1,0 +1,9 @@
+django-phonenumber-field
+django-phonenumbers
+boto3
+pillow
+django-storages
+
+# need Gdal for location feild
+sudo apt-get install python3-gdal gdal-bin libgdal-dev
+sudo apt install libsqlite3-mod-spatialite

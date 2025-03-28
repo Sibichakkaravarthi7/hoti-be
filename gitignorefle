@@ -1,0 +1,17 @@
+#ignore
+.idea/
+accounts/__pycache__/
+accounts/migrations/__pycache__/
+customtokens/__pycache__/
+customtokens/migrations/__pycache__/
+helpers/__pycache__/
+hoti/__pycache__/
+master/__pycache__/
+master/migrations/__pgit ycache__/
+master/migrations/__pycache__/
+master/migrations/__pycache__/
+admindashboard/__pycache__/
+admindashboard/migrations/__pycache__/
+Mobile/__pycache__/
+Mobile/migrations/__pycache__/
+.envsendgrid.env

@@ -1,0 +1,21 @@
+<!-- base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+    <!-- Add your common CSS and meta tags here -->
+</head>
+<body>
+
+<form id="action-form" method="POST" action="{% url 'perform_action' %}">
+  {% csrf_token %}
+  <div class="buttons-container">
+    <button type="submit" name="action" value="verify">Verify ALL</button>
+  </div>
+</form>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
